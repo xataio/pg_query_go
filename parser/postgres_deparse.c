@@ -227,7 +227,7 @@ static void deparseValue(StringInfo str, union ValUnion *value, DeparseNodeConte
 
 
 // "any_name" in gram.y
-static void deparseAnyName(StringInfo str, List *parts)
+void deparseAnyName(StringInfo str, List *parts)
 {
 	ListCell *lc = NULL;
 
